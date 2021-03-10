@@ -46,14 +46,14 @@ public ModelAndView contact() {
 //	
 //}
 
-@RequestMapping(value="/test/{greeting}")
-public ModelAndView test(@PathVariable(value="greeting", required=false) String greet) {
-	if(greet==null) {
-		greet="Hello There....";
-	}		
-	ModelAndView mv= new ModelAndView("page");
-	mv.addObject("greeting ",greet);
-	return mv;
-	
-}
+//@RequestMapping(value="/test/{greeting}")
+//public ModelAndView test(@PathVariable(value="greeting", required=false) String greet) {
+//	if(greet==null) {
+//		greet="Hello There....";
+//	}		
+//	ModelAndView mv= new ModelAndView("page");
+//	mv.addObject("greeting ",greet);
+//	return mv;
+//	
+//}
 }
